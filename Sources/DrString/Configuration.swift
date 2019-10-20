@@ -1,7 +1,8 @@
-import Critic
+import Decipher
 
-public typealias Section = Critic.Section
-public typealias ParameterStyle = Critic.ParameterStyle
+public typealias Section = Decipher.Section
+public typealias ParameterStyle = Decipher.ParameterStyle
+
 public struct Configuration: Decodable {
     let includedPaths: [String]
     let excludedPaths: [String]
